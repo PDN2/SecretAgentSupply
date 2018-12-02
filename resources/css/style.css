@@ -21,8 +21,27 @@ body {
 .header img {
 height: 1.5em;
 padding-right: 15px;
+padding-left: 10rem;
 }
 
 .header-text span {
   padding-left: 1.5rem;
+}
+
+/* hero image Section */
+.hero-image {
+  background-image: url("../resources/moto.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 25em;
+}
+
+.hero-header {
+  background-color: gray;
+  color: white;
+  width: 20em;
+  padding: 2em 3em;
+  position: relative;
+  top: 9em;
 }
