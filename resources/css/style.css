@@ -31,7 +31,7 @@ body {
 
 /* Hero Image Section */
 .hero-image {
-  background-image: url("./resources/images/moto.jpeg");
+  background-image: url("../resources/images/moto.jpeg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -62,22 +62,60 @@ nav {
   align-items: center;
   justify-content: space-between;
   padding: 0.75rem;
+  margin: 0 15%;
+}
+
+.hero-nav {
+  background-color: gray;
 }
 
 /* Product Section */
 .product-section {
   display: flex;
   justify-content: space-between;
-  width: 960px;
+  width: 100%;
   margin-top: 54px;
-  width: 30%;
   padding: 3rem 0;
+}
+
+.product {
+  display: grid;
+  width: 20%;
+  height: 20%;
 }
 
 .product-shot {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 2em 0;
+  padding: 2rem 0;
   boarder: 4px solid black;
+  width: 100%;
+}
+
+.product-shot img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 9rem;
+  padding: 2rem 0;
+  background-color: white;
+}
+
+.description {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 0.5rem 0;
+}
+
+/* Info Section */
+.information {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 54px;
+  padding: 3rem 0;
 }
