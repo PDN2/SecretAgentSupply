@@ -31,7 +31,7 @@ body {
 
 /* Hero Image Section */
 .hero-image {
-  background-image: url("../resources/images/moto.jpeg");
+  background-image: url("./resources/images/moto.jpeg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -53,7 +53,7 @@ nav {
   padding: 0.75rem;
   line-height: 1.4em;
   justify-content: center;
-  background-color: gray;
+  background-color: firebrick;
   color: white;
 }
 
@@ -66,12 +66,13 @@ nav {
 }
 
 .hero-nav {
-  background-color: gray;
+  background-color: firebrick;
 }
 
 /* Product Section */
 .product-section {
   display: flex;
+  flex-flow: row nowrap;
   justify-content: space-between;
   width: 100%;
   margin-top: 54px;
@@ -114,8 +115,32 @@ nav {
 /* Info Section */
 .information {
   display: flex;
+  justify-content: space-between;
+  margin: 3em 0 0 0;
+}
+
+.info {
+  width: 35%;
+}
+
+.description .coords .hours {
+  line-height: 1.4em;
+}
+
+.description {
+  display: block;
+  background-color: black;
+  color: white;
+  padding: 1em 2em;
+}
+
+/* Footer Section */
+.footer {
+  display: flex;
   justify-content: center;
-  width: 100%;
-  margin-top: 54px;
-  padding: 3rem 0;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 8rem 0;
+
 }
